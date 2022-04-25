@@ -9,7 +9,7 @@ import styles from './styles';
 class App extends Component {
   render() {
     console.log('props : ', this.props);
-
+    var test = null;
     return (
       <ThemeProvider theme={theme}>
         <Taskboard></Taskboard>
